@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Nagendra Sriram</title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+    <!-- Custom CSS Link -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <!-- Google Font Link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <main>
+
+        <!-- Sidebar -->
+        <aside class="sidebar" data-sidebar>
+            <div class="sidebar-info">
+                <figure class="avatar-box">
+                    <img src="./assets/images/my-avatar.png" alt="Ravuru Sai Vikas" width="80">
+                </figure>
+                <div class="info-content">
+                    <h1 class="name" title="Ravuru Sai Vikas">Ravuru Sai Vikas</h1>
+                    <p class="title">Python Developer</p>
+                </div>
+                <button class="info_more-btn" data-sidebar-btn>
+                    <span>Show Contacts</span>
+                    <ion-icon name="chevron-down"></ion-icon>
+                </button>
+            </div>
+
+            <div class="sidebar-info_more">
+                <div class="separator"></div>
+                <ul class="contacts-list">
+                    <li class="contact-item">
+                        <div class="icon-box">
+                            <ion-icon name="mail-outline"></ion-icon>
+                        </div>
+                        <div class="contact-info">
+                            <p class="contact-title">Email</p>
+                            <a href="mailto:nagendra@example.com" class="contact-link">saivikasravuru@gmail.com</a>
+                        </div>
+                    </li>
+                    <li class="contact-item">
+                        <div class="icon-box">
+                            <ion-icon name="phone-portrait-outline"></ion-icon>
+                        </div>
+                        <div class="contact-info">
+                            <p class="contact-title">Phone</p>
+                            <a href="tel:+1234567890" class="contact-link">+91 8639792984</a>
+                        </div>
+                    </li>
+                    <li class="contact-item">
+                        <div class="icon-box">
+                            <ion-icon name="calendar-outline"></ion-icon>
+                        </div>
+                        <div class="contact-info">
+                            <p class="contact-title">Birthday</p>
+                            <time datetime="2005-02-03">Nov 19, 2005</time>
+                        </div>
+                    </li>
+                    <li class="contact-item">
+                        <div class="icon-box">
+                            <ion-icon name="location-outline"></ion-icon>
+                        </div>
+                        <div class="contact-info">
+                            <p class="contact-title">Location</p>
+                            <address>Chennai, India</address>
+                        </div>
+                    </li>
+                </ul>
+                <div class="separator"></div>
+                <ul class="social-list">
+                    <li class="social-item">
+                        <a href="https://www.linkedin.com/in/sai-vikas-ravuru-b3001b295/" class="social-link" target="_blank">
+                            <ion-icon name="logo-linkedin"></ion-icon>
+                        </a>
+                    </li>
+                    <li class="social-item">
+                        <a href="https://github.com/saivikasravuru" class="social-link" target="_blank">
+                            <ion-icon name="logo-github"></ion-icon>
+                        </a>
+                    </li>
+                    <li class="social-item">
+                        <a href="https://www.instagram.com/sai_vikas_ravuru/" class="social-link" target="_blank">
+                            <ion-icon name="logo-instagram"></ion-icon>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </aside>
+
+        <!-- Main Content -->
+        <div class="main-content">
+
+            <!-- Navbar -->
+            <nav class="navbar">
+                <ul class="navbar-list">
+                    <li class="navbar-item">
+                        <button class="navbar-link active" data-nav-link data-page="about">About</button>
+                    </li>
+                    <li class="navbar-item">
+                        <button class="navbar-link" data-nav-link data-page="portfolio">Portfolio</button>
+                    </li>
+                    <li class="navbar-item">
+                        <button class="navbar-link" data-nav-link data-page="resume">Resume</button>
+                    </li>
+                    <li class="navbar-item">
+                        <button class="navbar-link" data-nav-link data-page="contact">Contact</button>
+                    </li>
+                </ul>
+            </nav>
+
+            <!-- About Section -->
+<article class="about active" data-page="about">
+  <header>
+      <h2 class="h2 article-title">About Me</h2>
+  </header>
+  <section class="about-text">
+      <div class="content-wrapper">
+          <div class="about-img">
+              <img src="img vik/aboutmefix.png" alt="About Me" loading="lazy">
+          </div>
+          <div class="text-content">
+              <div class="text-background"> <!-- New div for white background -->
+                  <p>
+                      I'm a 2nd-year B.Tech CSE student at SRMIST, passionate about web and  full-stack development. I enjoy creating user-friendly and responsive web applications.
+                  </p>
+                  <p>
+                      My skills include:
+                  </p>
+                  <div class="skills-icons">
+                      <div>
+                          <ion-icon name="logo-java" class="icon"></ion-icon>
+                          <span>Java</span>
+                      </div>
+                      <div>
+                          <ion-icon name="logo-python" class="icon"></ion-icon>
+                          <span>Python</span>
+                      </div>
+                      <div>
+                          <ion-icon name="logo-html5" class="icon"></ion-icon>
+                          <span>HTML</span>
+                      </div>
+                      <div>
+                          <ion-icon name="logo-css3" class="icon"></ion-icon>
+                          <span>CSS</span>
+                      </div>
+                      <div>
+                          <ion-icon name="logo-javascript" class="icon"></ion-icon>
+                          <span>JavaScript</span>
+                      </div>
+                      <div>
+                          <ion-icon name="database" class="icon"></ion-icon>
+                          <span>SQL</span>
+                      </div>
+                  </div>
+                  <h3>Hobbies</h3>
+                  <div class="hobbies-icons">
+                      <div>
+                          <ion-icon name="camera-outline" class="icon"></ion-icon>
+                          <span>Photography</span>
+                      </div>
+                      <div>
+                          <ion-icon name="laptop-outline" class="icon"></ion-icon>
+                          <span>Coding</span>
+                      </div>
+                      <div>
+                          <ion-icon name="globe-outline" class="icon"></ion-icon>
+                          <span>Exploring New Technologies</span>
+                      </div>
+                  </div>
+                  <h3>Projects</h3>
+                  <p>
+                      I have worked on various projects, including a Java-based Electricity Billing System, Pyton-based ipl data analysis and a responsive resume website. I am particularly interested in machine learning and artificial intelligence.
+                  </p>
+              </div>
+          </div>
+      </div>
+  </section>
+</article>
+
+<!-- CSS for improved layout and animations -->
+<style>
+  .about-text {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 20px; /* Add padding for spacing */
+  }
+
+  .content-wrapper {
+      display: flex;
+      background-color: white; /* Set background color for the whole section */
+      padding: 20px; /* Add padding for spacing */
+      border-radius: 10px; /* Rounded corners */
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Shadow effect */
+      max-width: 900px; /* Set a max width for better layout */
+      margin: 0 auto; /* Center the section */
+  }
+
+  .about-img {
+      flex: 1;
+      max-width: 300px;
+      margin-right: 20px;
+  }
+
+  .about-img img {
+      width: 100%;
+      border-radius: 10px; /* Keep the image rounded */
+  }
+
+  .text-content {
+      flex: 2;
+      max-width: 600px;
+  }
+
+  .text-background { /* White background for the text area */
+      color: black; /* Set text color to black */
+  }
+
+  .skills-icons,
+  .hobbies-icons {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin: 10px 0;
+  }
+
+  .skills-icons div,
+  .hobbies-icons div {
+      display: flex;
+      align-items: center;
+      margin: 10px;
+      transition: transform 0.3s ease;
+      color: red; /* Set icon color to red */
+  }
+
+  .skills-icons div:hover,
+  .hobbies-icons div:hover {
+      transform: scale(1.1);
+  }
+
+  .icon {
+      font-size: 24px;
+      margin-right: 8px;
+  }
+</style>
+
+
+<!-- Portfolio Section -->
+<article class="portfolio" data-page="portfolio" style="background: #ffffff; padding: 20px; border-radius: 8px; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);">
+  <header><br> <br>
+      <h2 class="h2 article-title" style="color: #d32f2f; text-align: center; font-size: 2.5em; margin-bottom: 20px;">Portfolio 🚀</h2>
+  </header>
+  <section class="projects">
+      <ul class="project-list" style="list-style: none; padding: 0; display: flex; flex-wrap: wrap; justify-content: center;">
+          <li class="project-item active" data-filter-item style="margin: 15px; width: 300px; border: 2px solid #d32f2f; border-radius: 10px; overflow: hidden; transition: transform 0.3s, box-shadow 0.3s;">
+              <a href="#" style="text-decoration: none; color: inherit;">
+                  <figure class="project-img">
+                      <img src="img vik/ele.png" alt="Electricity Billing System" loading="lazy" style="width: 100%; height: auto;">
+                  </figure>
+                  <h3 class="project-title" style="font-size: 1.75em; color: #d32f2f; padding: 10px;">Electricity Billing System</h3>
+                  <p class="project-category" style="color: #555; padding: 0 10px 10px;">Java Development</p>
+              </a>
+          </li>
+          <li class="project-item active" data-filter-item style="margin: 15px; width: 300px; border: 2px solid #d32f2f; border-radius: 10px; overflow: hidden; transition: transform 0.3s, box-shadow 0.3s;">
+              <a href="#" style="text-decoration: none; color: inherit;">
+                  <figure class="project-img">
+                      <img src="img vik/website page.png" alt="Responsive Resume Website" loading="lazy" style="width: 100%; height: auto;">
+                  </figure>
+                  <h3 class="project-title" style="font-size: 1.75em; color: #d32f2f; padding: 10px;">Responsive Resume Website</h3>
+                  <p class="project-category" style="color: #555; padding: 0 10px 10px;">Web Development</p>
+              </a>
+          </li>
+          <li class="project-item active" data-filter-item style="margin: 15px; width: 300px; border: 2px solid #d32f2f; border-radius: 10px; overflow: hidden; transition: transform 0.3s, box-shadow 0.3s;">
+              <a href="#" style="text-decoration: none; color: inherit;">
+                  <figure class="project-img">
+                      <img src="img vik/ipl data analysis.png" alt="IPL Data analysis" loading="lazy" style="width: 100%; height: auto;">
+                  </figure>
+                  <h3 class="project-title" style="font-size: 1.75em; color: #d32f2f; padding: 10px;">IPL Data analysis</h3>
+                  <p class="project-category" style="color: #555; padding: 0 10px 10px;">Python development</p>
+              </a>
+          </li>
+      </ul>
+  </section>
+</article>
+
+<style>
+  /* Hover Effect */
+  .project-item:hover {
+      transform: scale(1.05);
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  }
+</style>
+
+
+            <!-- Resume Section -->
+            <!-- Resume Section -->
+            <article class="resume" data-page="resume" style="background-color: #f8f9fa; padding: 20px; border-radius: 10px;">
+              <header><br><br>
+                  <h2 class="h2 article-title" style="text-align: center; color: #d32f2f; font-family: 'Arial', sans-serif;">Resume</h2>
+              </header>
+              <section class="resume-text" style="color: #333; font-family: 'Arial', sans-serif; line-height: 1.6;">
+                  <h3 style="text-align: center; color: #d32f2f; font-weight: bold;">RAVURU SAI VIKAS</h3>
+            
+                  <h3 style="color: #d32f2f;">Summary 🌟</h3>
+                  <p style="background-color: #ffe3e3; padding: 10px; border-radius: 5px;">
+                      Aspiring Computer Science professional with expertise in <strong>Python</strong>, <strong>Java</strong>, <strong>C++</strong>, <strong>HTML</strong>, <strong>CSS</strong>,
+                      <strong>JavaScript</strong>, and <strong>SQL</strong>, actively seeking an internship as a Python and Java Developer. Skilled in object-oriented programming (OOP) and proficient in using Git/GitHub for version control, with a foundational understanding of data structures and algorithms (DSA). My experience in collaborative projects focused on developing scalable applications enables me to contribute effectively to advanced software development initiatives.
+                  </p>
+            
+                  <h3 style="color: #d32f2f;">Education 🎓</h3>
+                  <p><strong>B.Tech in Computer Science and Engineering</strong><br>
+                  SRM Institute of Science and Technology <span style="font-weight: bold;">(2nd Year, Data Science Focus)</span><br>
+                  <em style="color: #d32f2f;">CGPA: 9.14</em><br>
+                  <em style="color: #d32f2f;">Expected Graduation: 2027</em></p>
+            
+                  <h3 style="color: #d32f2f;">Intermediate 🏫</h3>
+                  <p><strong>Sri Siddartha Junior College</strong><br>
+                  Specialization: MPC<br>
+                  <em style="color: #d32f2f;">Aug 2021 - Aug 2023</em><br>
+                  Percent: <strong style="color: #d32f2f;">94%</strong></p>
+            
+                  <h3 style="color: #d32f2f;">Practical Experience 💼</h3>
+                  <p>
+                  <em style="color: #d32f2f;">June 2023 - August 2023</em></p>
+                  <ul>
+                      <li>🚀 Built a Java-based application for managing customer billing data, using JDBC and MySQL for efficient database interaction.</li>
+                      <li>⚡ Developed and optimized an electricity billing system that improved processing time by <strong>20%</strong>.</li>
+                      <li>🎨 Designed user interfaces, optimized SQL queries, and implemented key features like bill generation and payment tracking.</li>
+                  </ul>
+            
+                  <h3 style="color: #d32f2f;">Projects 💻</h3>
+                  <ul>
+                      <li><strong>Electricity Billing System:</strong> Created a Java application to manage billing efficiently. <em>(September 2023)</em></li>
+                      <li><strong>Responsive Resume Website:</strong> Developed a fully responsive personal website using HTML, CSS, and JavaScript, featuring interactive elements, optimized performance, and cross-device compatibility to effectively showcase skills and projects. <em>(December 2023)</em></li>
+                  </ul>
+            
+                  <h3 style="color: #d32f2f;">Additional Information 📝</h3>
+                  <h4 style="color: #d32f2f;">Technical Skills:</h4>
+                  <ul>
+                      <li>💻 Programming Languages:  Python,Java, C++, HTML, CSS, JavaScript, SQL</li>
+                      <li>🔧 Frameworks: Spring</li>
+                      <li>🛠️ Tools: Git</li>
+                  </ul>
+            
+                  <h4 style="color: #d32f2f;">Languages 🌍:</h4>
+                  <ul>
+                      <li>English, Telugu, Hindi</li>
+                  </ul>
+            
+                  <h4 style="color: #d32f2f;">Certifications/Internship 📜</h4>
+                  <ul>
+                      <li>🎓 Data Science Master Virtual Internship</li>
+                      <li>💡 Career Essentials in Generative AI by Microsoft and LinkedIn</li>
+                      <li>🏆 Certificate of Achievement for the successful completion of HTML & CSS</li>
+                      <li>🧠 Build Your Generative AI Productivity Skills with Microsoft and LinkedIn</li>
+                  </ul>
+            
+                  <h3 style="color: #d32f2f;">Contact Information 📞</h3>
+                  <p style="background-color: #ffe3e3; padding: 10px; border-radius: 5px;">
+                      17-419E-7, Nehru Nagar, N.V.R street, Andhra Pradesh, Madanapalle 517325<br>
+                      Phone: <strong style="color: #d32f2f;">+91 8639792984</strong><br>
+                      Email: <a href="mailto:nagendra3feb@gmail.com" style="color: #d32f2f;">saivikasravuru@gmail.com</a>
+                  </p>
+            
+                  <h3 style="color: #d32f2f;">Download ⬇️</h3>
+                  <p>
+                      <a href="img vik/resume of vikas.pdf" class="resume-link" style="color: #d32f2f; font-weight: bold; text-decoration: underline;" target="_blank">Download My Resume</a>
+                  </p>
+              </section>
+            </article>
+            
+
+         <!-- Contact Section -->
+<article class="contact" data-page="contact">
+  <header>
+      <h2 class="h2 article-title">✨ Contact Us ✨</h2>
+  </header>
+  <section class="contact-form">
+      <h3 class="h3 form-title">📩 We'd Love to Hear From You!</h3>
+      <form id="contactForm" class="form">
+          <div class="input-wrapper">
+              <input type="text" name="fullname" id="fullname" placeholder="Full Name 😊" required>
+              <input type="email" name="email" id="email" placeholder="Email Address 📧" required>
+          </div>
+          <textarea name="message" id="message" placeholder="Your Message ✍️" required></textarea>
+          <button type="submit" class="submit-btn">🚀 Send Message</button>
+      </form>
+      <p id="responseMessage" class="response-message"></p>
+  </section>
+</article>
+
+<style>
+  .contact {
+      background-color: #f9f9f9;
+      padding: 2rem;
+      border-radius: 8px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      max-width: 600px;
+      margin: auto;
+      text-align: center;
+  }
+
+  .article-title {
+      font-size: 2.5rem;
+      color: #333;
+      margin-bottom: 1rem;
+  }
+
+  .form-title {
+      font-size: 1.8rem;
+      margin-bottom: 1rem;
+      color: #555;
+  }
+
+  .input-wrapper {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      margin-bottom: 1.5rem;
+  }
+
+  .form input, .form textarea {
+      padding: 1rem;
+      border: 2px solid #007BFF;
+      border-radius: 5px;
+      font-size: 1rem;
+      transition: border 0.3s;
+  }
+
+  .form input:focus, .form textarea:focus {
+      border-color: #0056b3;
+      outline: none;
+  }
+
+  .form textarea {
+      height: 100px;
+      resize: none;
+  }
+
+  .submit-btn {
+      padding: 0.8rem 1.5rem;
+      background-color: #007BFF;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      font-size: 1.2rem;
+      cursor: pointer;
+      transition: background 0.3s;
+  }
+
+  .submit-btn:hover {
+      background-color: #0056b3;
+  }
+
+  .response-message {
+      margin-top: 1rem;
+      font-size: 1.1rem;
+      color: green; /* Adjust color as needed */
+  }
+
+  @media (max-width: 600px) {
+      .input-wrapper {
+          flex-direction: column;
+      }
+  }
+</style>
+
+<script>
+  document.getElementById('contactForm').addEventListener('submit', async (e) => {
+      e.preventDefault();
+      const fullname = document.getElementById('fullname').value;
+      const email = document.getElementById('email').value;
+      const message = document.getElementById('message').value;
+
+      try {
+          const response = await fetch('http://localhost:3000/send-email', {
+              method: 'POST',
+              headers: {
+                  'Content-Type': 'application/json'
+              },
+              body: JSON.stringify({ fullname, email, message })
+          });
+
+          const result = await response.json();
+          document.getElementById('responseMessage').textContent = result.message;
+      } catch (error) {
+          document.getElementById('responseMessage').textContent = 'An error occurred. Please try again.';
+      }
+  });
+</script>
+
+
+
+    <!-- Ionicons Script -->
+    <script src="https://unpkg.com/ionicons@5.5.2/dist/ionicons.js"></script>
+
+    <!-- Custom Script -->
+    <script src="./assets/js/script.js"></script>
+</body>
+
+</html>
