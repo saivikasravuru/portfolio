@@ -6,11 +6,7 @@ Welcome to the source code for my personal portfolio website! This project showc
 
 This website is designed as a professional and responsive portfolio, highlighting who I am and what I do. With an **About Me** section, selected projects, and a functional **Contact Form**, this portfolio demonstrates my skills in **HTML**, **CSS**, and **JavaScript**.
 
-## 🚀 Live Demo
 
-You can explore the live version of my portfolio here: [Portfolio on Vercel](https://portfolio-eight-sandy-19.vercel.app/)
-
----
 
 ## 🔧 Technologies Used
 
@@ -52,8 +48,8 @@ To make this portfolio your own:
 ## 💬 Contact
 
 Interested in connecting? You can reach me through:
-- **LinkedIn**: [Nagendra Sriram](https://linkedin.com/in/your-profile)
-- **GitHub**: [Nagendra Sriram](https://github.com/Nagendrasriram)
+- **LinkedIn**: [Ravuru Sai vikas](https://www.linkedin.com/in/sai-vikas-ravuru-b3001b295/)
+- **GitHub**: [Ravuru Sai vikas](https://github.com/saivikasravuru)
   
 Or use the contact form on the website to send a direct message!
 
