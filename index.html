@@ -390,8 +390,9 @@
   </header>
   <section class="contact-form">
       <h3 class="h3 form-title">📩 We'd Love to Hear From You!</h3>
-      <form id="contactForm" class="form">
+      <form action="https://api.web3forms.com/submit" method="POST" class="form">
           <div class="input-wrapper">
+              <input type="hidden" name="access_key" value="49b84dd9-1f2f-48a5-b088-6cf1496db96c">
               <input type="text" name="fullname" id="fullname" placeholder="Full Name 😊" required>
               <input type="email" name="email" id="email" placeholder="Email Address 📧" required>
           </div>
