@@ -61,7 +61,7 @@ Or use the contact form on the website to send a direct message!
 
 ## 🎉 Acknowledgments
 
-Thanks to the development community for continuous inspiration and resources. I’m excited to keep growing and collaborating with others in tech!
+Thanks to the development community for continuous inspiration and resources. I’m excited to keep growing and collaborating with others in tech!.
 
 ---
 
